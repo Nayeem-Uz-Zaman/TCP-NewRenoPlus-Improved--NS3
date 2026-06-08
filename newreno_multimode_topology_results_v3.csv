@@ -1,0 +1,29 @@
+Timestamp,Scenario,BottleneckMbps,TCPVariant,ErrorRate,Segments_Flow1,Segments_Flow2,AvgUniqueSegments,AvgThroughputMbps
+2026-04-07 13:32:04,single,7,TcpNewReno,0.01,48708,0,48708,1.559
+2026-04-07 13:34:16,single,7,TcpNewRenoPlus,0.01,57200,0,57200,1.83
+2026-04-07 13:37:45,single,7,TcpNewReno,0.025,6926,0,6926,0.222
+2026-04-07 13:41:22,single,7,TcpNewRenoPlus,0.025,14772,0,14772,0.473
+2026-04-07 13:43:43,single,7,TcpNewReno,0.05,5607,0,5607,0.179
+2026-04-07 13:46:10,single,7,TcpNewRenoPlus,0.05,8995,0,8995,0.288
+2026-04-07 13:46:19,single,7,TcpNewReno,0.1,1064,0,1064,0.034
+2026-04-07 13:46:29,single,7,TcpNewRenoPlus,0.1,1512,0,1512,0.048
+2026-04-07 13:46:55,single,7,TcpNewReno,0.15,0,0,0,0
+2026-04-07 13:47:21,single,7,TcpNewRenoPlus,0.15,0,0,0,0
+2026-04-07 13:50:32,multi,12,TcpNewReno,0.01,56632,53948,55290,1.769
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+2026-04-07 13:56:41,single,7,TcpNewReno,0.01,47485,0,47485,1.52
+2026-04-07 13:58:48,single,7,TcpNewRenoPlus,0.01,54739,0,54739,1.752
+2026-04-07 14:00:33,single,7,TcpNewReno,0.025,30405,0,30405,0.973
+2026-04-07 14:02:33,single,7,TcpNewRenoPlus,0.025,43199,0,43199,1.382
+2026-04-07 14:04:04,single,7,TcpNewReno,0.05,15750,0,15750,0.504
+2026-04-07 14:05:40,single,7,TcpNewRenoPlus,0.05,18875,0,18875,0.604

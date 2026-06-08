@@ -1,0 +1,21 @@
+Timestamp,Scenario,BottleneckMbps,TCPVariant,ErrorRate,Segments_Flow1,Segments_Flow2,AvgUniqueSegments,AvgThroughputMbps
+2026-04-07 18:30:38,single,7,TcpNewRenoPlusMod,0.0100,83286,0,83286,2.665
+Timestamp,Scenario,BottleneckMbps,TCPVariant,ErrorRate,Segments_Flow1,Segments_Flow2,AvgUniqueSegments,AvgThroughputMbps
+2026-04-07 18:32:05,single,7,TcpNewRenoPlusMod,0.0100,83286,0,83286,2.665
+2026-04-07 18:35:31,single,7,TcpNewRenoPlusMod,0.0250,83230,0,83230,2.663
+2026-04-07 18:36:50,single,7,TcpNewRenoPlusMod,0.0250,83230,0,83230,2.663
+2026-04-07 18:50:12,single,7,TcpNewRenoPlusMod,0.0100,83286,0,83286,2.665
+2026-04-07 18:54:58,single,7,TcpNewRenoPlusMod,0.0250,83230,0,83230,2.663
+2026-04-07 18:59:43,single,7,TcpNewRenoPlusMod,0.0500,83289,0,83289,2.665
+2026-04-07 19:02:32,single,7,TcpNewRenoPlusMod,0.1000,18841,0,18841,0.603
+2026-04-07 19:09:23,multi,12,TcpNewRenoPlusMod,0.0100,107797,106151,106974,3.423
+2026-04-07 19:16:15,multi,12,TcpNewRenoPlusMod,0.0250,106172,106663,106417,3.405
+2026-04-07 19:23:05,multi,12,TcpNewRenoPlusMod,0.0500,88520,101219,94869,3.036
+2026-04-07 19:26:10,multi,12,TcpNewRenoPlusMod,0.1000,3062,22763,12912,0.413
+2026-04-08 12:27:53,single,7,TcpNewRenoPlusMod,0.0250,83230,0,83230,2.663
+2026-04-08 12:32:40,single,7,TcpNewRenoPlusMod,0.0500,83289,0,83289,2.665
+2026-04-08 12:35:32,single,7,TcpNewRenoPlusMod,0.1000,18841,0,18841,0.603
+2026-04-08 12:42:28,multi,12,TcpNewRenoPlusMod,0.0100,107797,106151,106974,3.423
+2026-04-08 12:49:44,multi,12,TcpNewRenoPlusMod,0.0250,106172,106663,106417,3.405
+2026-04-08 12:56:44,multi,12,TcpNewRenoPlusMod,0.0500,88520,101219,94869,3.036
+2026-04-08 13:00:01,multi,12,TcpNewRenoPlusMod,0.1000,3062,22763,12912,0.413
