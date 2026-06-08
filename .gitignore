@@ -1,32 +1,94 @@
-# Build artifacts
+# ============================================================
+# NS-3 Build Artifacts
+# ============================================================
 build/
 cmake-cache/
-CMakeFiles/
-build-*/
-*.o
-*.so
-*.a
-*.lo
-*.obj
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+.ninja_*
+*.ninja
+.lock-ns3_linux_build
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-
-# Editor temp files
-*.swp
-*~
-.vscode/
-
-# ns-3 outputs and logs
+# ============================================================
+# NS-3 Framework / Boilerplate (not our work)
+# ============================================================
+AUTHORS
+CHANGES.md
+RELEASE_NOTES.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+LICENSES/
+bindings/
+build-support/
+contrib/
+doc/
+examples/
 testpy-output/
-*.pcap
-*.trace
-*.log
+pyproject.toml
+setup.py
+setup.cfg
+ns3
+papertxt
+VERSION
 
-# Generated documentation
-*.aux
-*.out
-*.toc
-*.synctex.gz
+# ============================================================
+# NS-3 src/ directory — exclude all EXCEPT our custom TCP files
+# ============================================================
+src/
+!src/internet/
+!src/internet/model/
+!src/internet/model/tcp-newreno-plus.cc
+!src/internet/model/tcp-newreno-plus.h
+!src/internet/model/tcp-newreno-plus-mod.cc
+!src/internet/model/tcp-newreno-plus-mod.h
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+.eggs/
+*.so
+
+# ============================================================
+# Editor / IDE
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ============================================================
+# Code Style / Formatting (upstream NS-3)
+# ============================================================
+.clang-format
+.clang-tidy
+.editorconfig
+
+# ============================================================
+# Log / Temp Files
+# ============================================================
+sweep_log.txt
+sweep_log_v5.txt
+sweep_modified_v1.log
+sweep_resume.log
+*.log
+*.tr
+*.pcap
+testpy-output/
+
+# ============================================================
+# Leftover / Scratch CSVs with spaces in name
+# ============================================================
+"real one.csv"
+real\ one.csv
+real\ one_r.csv
