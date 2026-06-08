@@ -1,0 +1,32 @@
+# Build artifacts
+build/
+cmake-cache/
+CMakeFiles/
+build-*/
+*.o
+*.so
+*.a
+*.lo
+*.obj
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor temp files
+*.swp
+*~
+.vscode/
+
+# ns-3 outputs
+testpy-output/
+*.pcap
+*.trace
+
+# Logs
+*.log
+
+# Ignore large binary directories
+ns3
+build/

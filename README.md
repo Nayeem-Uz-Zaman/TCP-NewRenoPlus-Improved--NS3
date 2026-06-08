@@ -1,3 +1,21 @@
+# TCP NewReno+ Modified — ns-3 Project
+
+This repository contains an ns-3 implementation and evaluation of a modified
+TCP NewReno algorithm (NewReno+) adapted for wireless environments. It includes
+the simulation code, plotting scripts, experiment outputs and the written report.
+
+Quick links
+- Paper / report: [report.pdf](report.pdf) and [paper.pdf](paper.pdf)
+- Simulation entry: `scratch/newreno-plus-test.cc`
+- Plots: `plots/`
+- Reproduction guide: `RUN.md`
+- Short summary: `SUMMARY.md`
+
+If you want to reproduce the figures, follow `RUN.md` to build ns-3 and run the
+simulation. Use the `plot_*.py` scripts to regenerate the images from CSV files.
+
+License
+- The ns-3 code in this repo is distributed under GPL-2.0; see `LICENSE` for details.
 # The Network Simulator, Version 3
 
 [![codecov](https://codecov.io/gh/nsnam/ns-3-dev-git/branch/master/graph/badge.svg)](https://codecov.io/gh/nsnam/ns-3-dev-git/branch/master/)
