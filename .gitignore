@@ -19,14 +19,14 @@ __pycache__/
 *~
 .vscode/
 
-# ns-3 outputs
+# ns-3 outputs and logs
 testpy-output/
 *.pcap
 *.trace
-
-# Logs
 *.log
 
-# Ignore large binary directories
-ns3
-build/
+# Generated documentation
+*.aux
+*.out
+*.toc
+*.synctex.gz

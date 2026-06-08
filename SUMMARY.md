@@ -1,18 +1,30 @@
-# Summary — TCP NewReno+ Modified (Project)
+# Project Summary — TCP NewReno+ Modified (ns-3)
 
-This repository contains an ns-3 implementation and evaluation of a modified
-TCP NewReno algorithm intended to improve performance in wireless environments.
+This repository demonstrates a modified TCP NewReno algorithm designed for wireless network performance improvement.
 
-What to find here
-- `scratch/newreno-plus-test.cc` — simulation program that reproduces the paper's topology.
-- `plot_results.py`, `plot_reno_comparison.py`, `plot_wifi.py` — plotting utilities.
-- `paper.pdf` / `report.pdf` — the written report and paper draft.
-- `plots/` — generated figures used in the report.
-- CSV files with experiment outputs (root) — e.g., `newreno_multimode_topology_results.csv`.
+## What this project contains
+- A custom ns-3 simulation program: `scratch/newreno-plus-test.cc`
+- Evaluation of three TCP variants on mixed wired/wireless topologies
+- Plotting and data analysis scripts
+- A written project report and paper draft
 
-Highlights
-- Experiments compare `TcpNewReno`, `TcpNewRenoPlus`, and `TcpNewRenoPlusMod` under
-  different wireless error rates and topologies.
-- The repo includes scripts to run parameter sweeps and regenerate publication figures.
+## Main results
+- Evaluates throughput and unique segment delivery under wireless packet error rates
+- Compares `TcpNewReno`, `TcpNewRenoPlus`, and `TcpNewRenoPlusMod`
+- Shows how the modified algorithm reacts less aggressively to wireless loss, helping preserve throughput
 
-See `RUN.md` for reproduction instructions and the main `README.md` for a project overview.
+## Key files
+- `scratch/newreno-plus-test.cc`
+- `plot_results.py`
+- `report.pdf`
+- `paper.pdf`
+- `RUN.md`
+- `plots/`
+
+## Running the project
+1. Build ns-3: `./ns3 configure --enable-examples --enable-tests && ./ns3 build`
+2. Run the simulation: `./ns3 run "newreno-plus-test --tcpVariant=TcpNewRenoPlusMod --errorRate=0.01 --scenario=multi --simulationTime=250 --outputFile=newreno_multimode_topology_results_v6.csv"`
+3. Generate plots: `python3 plot_results.py`
+
+## Why it matters
+This project is a portfolio-ready implementation of protocol research that blends simulation, data analysis, and report writing.
